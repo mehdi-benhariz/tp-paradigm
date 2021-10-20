@@ -2,5 +2,7 @@ x = int(input("donner un entier \n "))
 a = int(input("donner le premier borne "))
 b = int(input("donner lae deuxieme borne "))
 
-if (a < x and x < b):
+if (a < x < b):
     print("{} est dans l'intervall [{},{}] ".format(x, a, b))
+else:
+    print("{} m'est pas dans l'intervall [{},{}] ".format(x, a, b))
