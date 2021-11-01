@@ -1,4 +1,4 @@
-import math
+from math import sqrt, ceil
 x = 0
 while(True):
     x = int(input("donner un entier postive"))
@@ -6,7 +6,7 @@ while(True):
         break
 
 sum_div = 0
-for i in range(1, math.ceil(math.sqrt(x))+1):
+for i in range(1, ceil(sqrt(x))+1):
     if(x % i == 0):
         sum_div += i
 

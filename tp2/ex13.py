@@ -1,7 +1,5 @@
 MAX = int(input("donner u max"))
-somme = 0
-prod = 1
-somme_inv = 0
+somme, prod, somme_inv = 0, 1, 0
 for i in range(1, MAX+1):
     if i % 5 != 0:
         somme += i
